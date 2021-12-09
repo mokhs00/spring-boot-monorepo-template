@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev
+  jpa:
+    properties:
+      hibernate:
+        default_batch_fetch_size : 1000
+
+server:
+#  port: 'port'
