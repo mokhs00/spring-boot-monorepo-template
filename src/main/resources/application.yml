@@ -7,10 +7,10 @@ spring:
         default_batch_fetch_size : 1000
 
   mail:
-#    host: smtp.gmail.com
+    host: smtp.gmail.com
     port: 587
-#    username: username
-#    password: password
+    username: username
+    password: password
     properties:
       mail:
         smtp:
