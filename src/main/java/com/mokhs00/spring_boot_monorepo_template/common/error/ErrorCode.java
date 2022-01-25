@@ -24,7 +24,7 @@ public enum ErrorCode {
     /**
      * USER
      */
-    PASSWORD_NOT_MATCH(400, "U001", "비밀번호가 올바르지 않습니다"),
+    INVALID_PASSWORD(400, "U001", "비밀번호가 올바르지 않습니다"),
     USER_NOT_FOUND(400, "U002", "해당 유저가 존재하지 않습니다."),
     DUPLICATED_USERNAME(400, "U003", "중복된 아이디가 존재합니다."),
     ;

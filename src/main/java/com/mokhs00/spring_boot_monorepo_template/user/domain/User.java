@@ -83,7 +83,7 @@ public class User extends BaseTimeEntity implements UserDetails {
 
     public void validatePasswordMatch(PasswordEncoder passwordEncoder, String rawPassword) {
         if (!passwordEncoder.matches(rawPassword, this.password)) {
-            throw new PasswordNotMatchException();
+            throw new InvalidPasswordException();
         }
     }
 
