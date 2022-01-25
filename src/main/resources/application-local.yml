@@ -12,15 +12,14 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
+    driver-class-name: org.h2.Driver
 #    driver-class-name: org.mariadb.jdbc.Driver
 #    url: jdbc:mariadb://'host':'port'/'db_name'?serverTimezone=UTC&characterEncoding=UTF-8
 #    password: 'password'
 #    username: 'username'
 
-logging:
-  config: classpath:logback-dev.xml
 
 jwt:
-  secret-key: 'secret-key'
+  secret-key: 'local-secret-key'
   expire-length: 360000000
   refresh-expire-length: 2000000000
