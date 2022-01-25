@@ -13,11 +13,12 @@ public enum ErrorCode {
     INTERNAL_SERVER_ERROR(500, "C004", "알 수 없는 에러 (서버 에러)"),
     INVALID_TYPE_VALUE(400, "C005", "타입이 올바르지 않습니다."),
     ACCESS_DENIED(403, "C006", "권한이 없습니다."),
-    INVALID_TOKEN(401, "C007", "토큰이 없거나 올바르지 않습니다."),
+    INVALID_TOKEN(401, "C007", "토큰이 올바르지 않습니다."),
     API_CALL_FAILED(500, "C008", "서버 간 통신 중 에러가 발생했습니다."),
     NOT_ACCEPT_IP(400, "C009", "허용하지 않은 IP 입니다"),
     STORAGE_FILE_NOT_FOUND(404, "C010", "존재하지 않는 파일입니다."),
     FAIL_UPLOAD_FILE(404, "C011", "파일 업로드 중 에러가 발생했습니다."),
+    UNAUTHORIZED(401, "C012", "인증되지 않은 사용자입니다."),
 
 
     /**
