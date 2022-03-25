@@ -20,3 +20,9 @@ spring:
 
 #server:
 #  port: port
+
+
+# TODO : config file upload path and url
+resource:
+  path: ./upload/
+  rootUrl: http://localhost:8080/files/
